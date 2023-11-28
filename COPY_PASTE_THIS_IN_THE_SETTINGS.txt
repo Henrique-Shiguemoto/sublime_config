@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme",
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_", // added _
+	"caret_style": "solid",
+	"highlight_line": true,
+	"word_wrap": false,
+	"file_exclude_patterns":
+	[
+		"*.sublime-project",
+		"*.sublime-workspace"
+	]
+}
