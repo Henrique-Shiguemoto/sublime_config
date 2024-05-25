@@ -1,18 +1,20 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"font_size": 9,
+
+	"font_size": 10,
+	"highlight_line": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
 	"ignored_packages":
 	[
-		"Vintage"
+		"Package Control",
+		"Vintage",
 	],
+	"draw_white_space": ["selection_none"],
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"theme": "Adaptive.sublime-theme",
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_", // added _
-	"caret_style": "solid",
-	"highlight_line": true,
-	"word_wrap": false,
-	"file_exclude_patterns":
-	[
-		"*.sublime-project",
-		"*.sublime-workspace"
-	]
+	"dark_theme": "Default.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"index_files": true,
+	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.a", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
 }
